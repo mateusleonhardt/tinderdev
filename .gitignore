@@ -3,13 +3,13 @@
 # dependencies
 /backend/node_modules
 /frontend/node_modules
-/instarocketv2/node_modules
+/tinderdev/node_modules
 /backend/.pnp
 /frontend/.pnp
-/instarocketv2/.pnp
+/tinderdev/.pnp
 /backend/.pnp.js
 /frontend/.pnp.js
-/instarocketv2/.pnp.js
+/tinderdev/.pnp.js
 
 # testing
 /coverage
