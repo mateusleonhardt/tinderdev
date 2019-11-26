@@ -1,9 +1,18 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+
+const routes = require('./routes');
 
 const server = express();
 
-server.get('/', (req, res) => {
-    return res.send(`Hello ${req.query.name}`);
-});
+mongoose.connect('mongodb+srv://mateusl91:mateusl91@cluster0-ge0wa.mongodb.net/tinderdev?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
+
+server.use(cors());
+server.use(express.json())
+server.use(routes);
 
 server.listen(3333);
