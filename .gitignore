@@ -3,13 +3,13 @@
 # dependencies
 /backend/node_modules
 /frontend/node_modules
-/tinderdev/node_modules
+/tindev/node_modules
 /backend/.pnp
 /frontend/.pnp
-/tinderdev/.pnp
+/tindev/.pnp
 /backend/.pnp.js
 /frontend/.pnp.js
-/tinderdev/.pnp.js
+/tindev/.pnp.js
 
 # testing
 /coverage
