@@ -16,7 +16,7 @@ io.on('connection', socket => {
     connectedUsers[user] = socket.id;
 });
 
-mongoose.connect('mongodb+srv://mateusl91:mateusl91@cluster0-ge0wa.mongodb.net/tinderdev?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://...', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
